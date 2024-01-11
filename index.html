@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="Styles/style.css">
 </head>
-<body>
+<body class="index">
 
 
  <!--Navigation section-->
@@ -23,10 +23,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">District</a>
+            <a class="nav-link active" href="District.html">District</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Login</a>
+            <a class="nav-link active" href="Loginpage.html">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="">About us</a>
@@ -57,16 +57,28 @@
         Kerala
      </h3>
      <br>
-    <p id="Intro"> Kerala, situated in the southwestern part of India, is renowned for its enchanting landscapes and rich cultural heritage. Known as the "God's Own Country," Kerala boasts lush greenery, backwaters, and pristine beaches. The state is celebrated for its vibrant traditions, classical arts, and diverse cuisine. With a unique blend of modernity and tradition, Kerala attracts visitors with its Ayurvedic practices, wildlife sanctuaries, and annual festivals. The warm hospitality of its people adds to the charm, making Kerala a captivating destination for tourists worldwide.
+    <p class="container-fluid" id="Intro"> Kerala, situated in the southwestern part of India, is renowned for its enchanting landscapes and rich cultural heritage. Known as the "God's Own Country," Kerala boasts lush greenery, backwaters, and pristine beaches. The state is celebrated for its vibrant traditions, classical arts, and diverse cuisine. With a unique blend of modernity and tradition, Kerala attracts visitors with its Ayurvedic practices, wildlife sanctuaries, and annual festivals. The warm hospitality of its people adds to the charm, making Kerala a captivating destination for tourists worldwide.
     </p>  
     </div>
       <div class="col">
        
       </div>
-      <div class="col" id="col3">
+      <div class="col-4" id="col3">
         <h6 id="Information">
             Information and Updates
-        </h6>
+        </h6><br>
+        <form>  
+          <div class="container" id="indexlogin">   
+              <label >Username :</label> <br>  
+              <input type="text" placeholder="Enter Username" name="username" required><br> <br> 
+              <label>Password :</label>  <br> 
+              <input type="password" placeholder="Enter Password" name="password" required> <br><br>
+              <button type="submit">Login</button>   
+              <button type="button" class="cancelbtn"> Cancel</button>  <br> <br>
+              <input type="checkbox" checked="checked"> Remember me   <br>
+              Forgot <a href="#"> password? </a>   
+          </div>   
+      </form>     
       </div>
     </div>
   </div>

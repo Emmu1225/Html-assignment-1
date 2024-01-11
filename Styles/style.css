@@ -20,7 +20,7 @@
     font-style: oblique;
 }
 
-body{
+.index{
     background-image: url('https://images.unsplash.com/photo-1593693411515-c20261bcad6e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGtlcmFsYXxlbnwwfHwwfHx8MA%3D%3D');
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -38,4 +38,96 @@ body{
 #Foot2
 {
     border-color: black;
+}
+/* Design for districts */
+.img-thumbnail{
+    size: 2in;
+}
+.body{
+    background-image:url('https://img.onmanorama.com/content/dam/mm/en/travel/travel-news/images/2023/1/20/kerala-beach.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.footerdistrict{
+    text-align: center;
+}
+.Login{
+ text-align: center;
+ border: 1px solid rgb(1, 1, 1);
+    
+    margin-top: 10px;
+    background-color: beige;
+    height: 15em;
+    padding: 20px;
+    margin-right: 15px;
+}
+.LoginStyle{
+    background-image: url('https://cdn.wallpapersafari.com/10/42/7Nt84I.jpg');
+    /* Style for the carousel container */
+
+  width: 80%;
+  margin: auto;
+}
+
+/* Style for carousel items */
+.carousel-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Style for carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #fff;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Visually hide controls for screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* index login design */
+#indexlogin{
+    
+    
+    margin-top: 10px;
+    
+    
+    padding: 5px;
+    margin-right: 100px;
+    
+    
+}
+/* District controls */
+#tvm{
+ 
+  text-align: left;
+  font-weight: bolder;
+  font-style: oblique;
+}
+.tvm{
+  background-image: url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
